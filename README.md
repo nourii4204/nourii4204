@@ -16,7 +16,7 @@ Welcome to my GitHub! I’m passionate about hardware and software development, 
 - Working with multidisciplinary teams on large-scale projects
 
 📫 How to Reach Me
-- LinkedIn
+- [LinkedIn](https://www.linkedin.com/in/nourahmed04/)
 - Email: nouramrsalah4@gmail.com
 
 ⚡ Fun Fact
