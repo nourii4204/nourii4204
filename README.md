@@ -22,7 +22,48 @@ Welcome to my GitHub! I’m passionate about hardware and software development, 
 ⚡ Fun Fact
 Aside from tech, I enjoy honing my barista skills, always experimenting with fun new coffee flavors to keep myself caffeinated!
 
-## [Simple RISC Machine - CPEN 211](https://nourii4204.github.io/access-code) 
-- Implemented a Turing Complete 16-bit RISC machine using System Verilog on an FPGA board in 3 weeks.
-- Subdivided the machine into smaller modules to be designed, tested, and debugged more easily.
-- Utilized pipelining to increase operations per cycle by 300% and go beyond course expectations.
+## [Simple RISC Machine](https://nourii4204.github.io/access-code) 
+- Designed and implemented with a partner a high-performance, Turing-complete 16-bit RISC machine using
+SystemVerilog on a DE1-SoC FPGA, completed within a 4-week timeline.
+- Developed key components including an instruction decoder, ALU, controller state machine, and combinational
+blocks, optimizing the architecture for modularity and ease of debugging.
+- Achieved a 100% pass rate on the grading scheme by rigorously testing the system with over 40 test benches in
+ModelSim, ensuring robust functionality and performance.
+
+## [Crash Shell](https://nourii4204.github.io/access-code) 
+- Designed and implemented an interactive UNIX shell in C, capable of running up to 32 processes concurrently in
+both the foreground and background, enhancing user multitasking capabilities
+- Ensured concurrent safety by masking and unmasking signals to prevent data races, reducing the risk of conflicts
+and ensuring consistent behavior
+- Achieved a 20% improvement in shell execution time through optimization techniques such as efficient memory
+management
+
+## [Memory Slab Allocator](https://nourii4204.github.io/access-code) 
+- Designed and implemented a dynamically located heap structure in C, ensuring alignment on an 8-byte boundary
+with a minimum block size of 64 bytes, bypassing the use of standard malloc functions
+- Engineered a specialized allocation function employing distinct structs to allocate memory blocks strategically,
+optimizing resource utilization
+- Programmed a highly efficient free function that achieves coalescing in constant time (O(1)), enhancing memory
+management and minimizing fragmentation
+- Conducted thorough debugging sessions using GDB, ensuring code integrity and stability; validated the reliability
+of the implementation using a self-designed heap consistency checker
+
+## [GraphFlood: Terrain Flooding and Path Cost Analysis](https://nourii4204.github.io/access-code) 
+- Engineered a graph class using a HashMap for an adjacency list and a HashSet for an adjacency matrix, adhering
+to stakeholder-defined abstraction functions and representation invariants, ensuring optimal performance across
+over 100 vertices
+- Developed a path cost function to calculate path metrics based on a list of vertices and a specified PathCostType,
+optimizing traversal efficiency across various graph structures
+- Thoroughly tested implementations with over 50 unit tests and a custom-built GUI, utilizing the graph classes to
+simulate and visualize flooding across 100+ terrain grid cells under varying water levels
+
+## [Image Rendering and Processing System](https://nourii4204.github.io/access-code) 
+- Developed a pixel class to facilitate image rendering with animations like quarter color, stripe color, and border
+color, achieving rendering times under 1 second per frame
+- Implemented a flood-fill algorithm in C++ using both DFS and BFS, optimizing the process to efficiently fill large
+images
+- Created a dynamic image processing class that enabled complex pixel manipulation, allowing for a variety of visual
+effects and enhanced image transformation capabilities
+
+
+
