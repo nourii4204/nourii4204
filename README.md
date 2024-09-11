@@ -21,3 +21,8 @@ Welcome to my GitHub! I’m passionate about hardware and software development, 
 
 ⚡ Fun Fact
 Aside from tech, I enjoy honing my barista skills, always experimenting with fun new coffee flavors to keep myself caffeinated!
+
+## [Simple RISC Machine - CPEN 211](https://nourii4204.github.io/access-code) 
+- Implemented a Turing Complete 16-bit RISC machine using System Verilog on an FPGA board in 3 weeks.
+- Subdivided the machine into smaller modules to be designed, tested, and debugged more easily.
+- Utilized pipelining to increase operations per cycle by 300% and go beyond course expectations.
