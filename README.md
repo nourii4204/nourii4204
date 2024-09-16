@@ -24,6 +24,7 @@ Aside from tech, I enjoy honing my barista skills, always experimenting with fun
 
 ## **Highlighted Projects**
 
+* code available on request 
 ### [Simple RISC Machine](https://nourii4204.github.io/access-code)
 - Designed and implemented with a partner a high-performance, Turing-complete 16-bit RISC machine using **SystemVerilog** on a DE1-SoC FPGA, completed within a 4-week timeline.
 - Developed key components including an **instruction decoder**, **ALU**, **controller state machine**, and **combinational blocks**, optimizing the architecture for modularity and ease of debugging.
