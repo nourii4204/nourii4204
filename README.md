@@ -1,52 +1,70 @@
-# 👋 Hi there! I'm **Nour Ahmed**
-Welcome to my GitHub! I’m passionate about hardware and software development, and I love solving real-world problems by merging the two. From embedded systems to building scalable software, I’m always looking to explore new technologies and take on exciting challenges.
+# 👋 Hi, I’m Nour Amr
 
-## 👀 **Interests**
-- **Hardware-software integration**: Bringing devices to life through code!
-- **Real-time systems** and **IoT projects**
-- Exploring the intersection of **cybersecurity**, **AI**, and **technology**
+Computer Engineering student at UBC with experience in **cybersecurity, distributed systems, and cloud infrastructure**. I build secure and scalable systems, from low-level OS components to full-stack applications, with a strong focus on reliability, performance, and real-world behavior.
 
-## 🌱 **Currently Learning**
-- Diving deeper into **embedded systems** and **microcontrollers**
-- Improving my **full-stack development** skills
+---
 
-## 💞️ **Looking to Collaborate On**
-- **Open-source hardware** and **software** projects
-- **Creative coding challenges**
-- Working with **multidisciplinary teams** on large-scale projects
+## 🚀 What I Work On
+- 🔐 **Cybersecurity**: penetration testing, vulnerability analysis, SIEM monitoring  
+- ☁️ **Cloud Systems**: AWS, Azure, Terraform, distributed systems  
+- ⚙️ **Systems Programming**: OS design, concurrency, memory management (C/C++)  
+- 🤖 **Real-Time Systems**: ROS 2, voice-controlled autonomous systems  
 
-## 📫 **How to Reach Me**
-- [LinkedIn](https://www.linkedin.com/in/nourahmed04/)
-- **Email**: nouramrsalah4@gmail.com
+---
 
-## ⚡ **Fun Fact**
-Aside from tech, I enjoy honing my barista skills, always experimenting with fun new coffee flavors to keep myself caffeinated!
+## 🌟 Featured Projects
 
-## **Highlighted Projects**
+### 🔹 Distributed Key-Value Store
+High-performance distributed system with at-most-once semantics deployed on AWS.
 
-* code available on request 
-### [Simple RISC Machine](https://nourii4204.github.io/access-code)
-- Designed and implemented with a partner a high-performance, Turing-complete 16-bit RISC machine using **SystemVerilog** on a DE1-SoC FPGA, completed within a 4-week timeline.
-- Developed key components including an **instruction decoder**, **ALU**, **controller state machine**, and **combinational blocks**, optimizing the architecture for modularity and ease of debugging.
-- Achieved a 100% pass rate on the grading scheme by rigorously testing the system with over 40 test benches in **ModelSim**, ensuring robust functionality and performance.
+- Scaled throughput from **90K → 200K req/sec** through concurrency optimization  
+- Implemented replication and failure recovery for reliable data consistency  
+- Simulated network faults (latency, packet loss) to evaluate system reliability  
 
-### [Crash Shell](https://nourii4204.github.io/access-code)
-- Designed and implemented an interactive **UNIX shell** in C, capable of running up to **32 processes** concurrently in both the foreground and background, enhancing user multitasking capabilities.
-- Ensured concurrent safety by **masking and unmasking signals** to prevent data races, reducing the risk of conflicts and ensuring consistent behavior.
-- Achieved a **20% improvement** in shell execution time through optimization techniques such as efficient memory management.
+---
 
-### [Memory Slab Allocator](https://nourii4204.github.io/access-code)
-- Designed and implemented a **dynamically located heap structure** in C, ensuring alignment on an 8-byte boundary with a minimum block size of 64 bytes, bypassing the use of standard `malloc` functions.
-- Engineered a specialized **allocation function** employing distinct structs to allocate memory blocks strategically, optimizing resource utilization.
-- Programmed a highly efficient **free function** that achieves coalescing in constant time (**O(1)**), enhancing memory management and minimizing fragmentation.
-- Conducted thorough debugging sessions using **GDB**, ensuring code integrity and stability; validated the reliability of the implementation using a self-designed **heap consistency checker**.
+### 🔹 InterviewPrep Mobile App
+Full-stack mobile app deployed on Azure with a focus on secure development.
 
-### [GraphFlood: Terrain Flooding and Path Cost Analysis](https://nourii4204.github.io/access-code)
-- Engineered a **graph class** using a **HashMap** for an adjacency list and a **HashSet** for an adjacency matrix, adhering to stakeholder-defined abstraction functions and representation invariants, ensuring optimal performance across over 100 vertices.
-- Developed a **path cost function** to calculate path metrics based on a list of vertices and a specified **PathCostType**, optimizing traversal efficiency across various graph structures.
-- Thoroughly tested implementations with over 50 unit tests and a **custom-built GUI**, utilizing the graph classes to simulate and visualize flooding across 100+ terrain grid cells under varying water levels.
+- Built Kotlin Android frontend and TypeScript/Node.js backend  
+- Mitigated a scraping vulnerability by replacing Puppeteer with Cheerio  
+- Implemented CI/CD pipelines and automated testing for reliability  
 
-### [Image Rendering and Processing System](https://nourii4204.github.io/access-code)
-- Developed a **pixel class** to facilitate image rendering with animations like quarter color, stripe color, and border color, achieving rendering times under 1 second per frame.
-- Implemented a **flood-fill algorithm** in C++ using both **DFS** and **BFS**, optimizing the process to efficiently fill large images.
-- Created a dynamic **image processing class** that enabled complex pixel manipulation, allowing for a variety of visual effects and enhanced image transformation capabilities.
+---
+
+### 🔹 Voice-Activated F1TENTH Autonomous Car
+Real-time ROS 2 system for voice-controlled autonomous driving.
+
+- Integrated speech-to-text for real-time command parsing  
+- Implemented speaker authentication using voice embeddings  
+- Validated commands to ensure safe and reliable execution  
+
+---
+
+### 🔹 OS/161 (UNIX-like Operating System)
+Low-level systems project focused on OS internals.
+
+- Implemented core system calls (fork, execv, read, write, dup)  
+- Developed virtual memory support with paging and TLB handling  
+- Debugged kernel behavior using GDB  
+
+---
+
+## 🛠️ Tech Stack
+- **Security**: Kali Linux, Burp Suite, Wireshark, Snort, Metasploit, MITRE ATT&CK  
+- **Cloud & Systems**: AWS, Azure, Terraform, Docker, Linux, Bash  
+- **Languages**: C, C++, Python, Java, Kotlin, TypeScript, JavaScript, SQL  
+- **Tools**: Git, GitHub Actions, VS Code, IntelliJ, GDB  
+
+---
+
+## ⚡ How I Work
+I use AI-assisted tools to accelerate development by clearly defining tasks and iterating quickly. I treat AI-generated code as a draft, validating it through testing, debugging, and manual review to ensure correctness, performance, and security.
+
+---
+
+## 📫 Contact
+- 🔗 [LinkedIn](https://www.linkedin.com/in/nourahmed04/)  
+- 📧 nouramrsalah4@gmail.com  
+
+> Note: Some project code may be private due to coursework restrictions. Demo versions available upon request.
