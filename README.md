@@ -38,7 +38,8 @@ Real-time ROS 2 system for voice-controlled autonomous driving.
 
 - Integrated speech-to-text for real-time command parsing  
 - Implemented speaker authentication using voice embeddings  
-- Validated commands to ensure safe and reliable execution  
+- Validated commands to ensure safe and reliable execution
+- 🔗 Repository: https://github.com/CPEN-391-Sp2025/team-a5-kachow
 
 ---
 
