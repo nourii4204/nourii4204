@@ -29,7 +29,7 @@ Full-stack mobile app deployed on Azure with a focus on secure development.
 – Developed and deployed a full-stack application with a Kotlin frontend and TypeScript backend on Azure
 – Built CI/CD pipelines using GitHub Actions to automate testing and improve deployment reliability
 – Integrated automated testing and code quality checks to support maintainability
-- 🔗 Repository: https://github.com/eqzhou81/CPEN-321
+- 🔗 Repository: https://github.com/nourii4204/crushing-your-coding-interview/
 
 ---
 
