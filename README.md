@@ -58,10 +58,6 @@ Low-level systems project focused on OS internals.
 - **Languages**: C, C++, Python, Java, Kotlin, TypeScript, JavaScript, SQL  
 - **Tools**: Git, GitHub Actions, VS Code, IntelliJ, GDB  
 
----
-
-## ⚡ How I Work
-I use AI-assisted tools to accelerate development by clearly defining tasks and iterating quickly. I treat AI-generated code as a draft, validating it through testing, debugging, and manual review to ensure correctness, performance, and security.
 
 ---
 
