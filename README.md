@@ -23,12 +23,13 @@ High-performance distributed system with at-most-once semantics deployed on AWS.
 
 ---
 
-### 🔹 InterviewPrep Mobile App
+### 🔹 Crush your coding interview (InterviewPrep Mobile App)
 Full-stack mobile app deployed on Azure with a focus on secure development.
 
-- Built Kotlin Android frontend and TypeScript/Node.js backend  
-- Mitigated a scraping vulnerability by replacing Puppeteer with Cheerio  
-- Implemented CI/CD pipelines and automated testing for reliability  
+– Developed and deployed a full-stack application with a Kotlin frontend and TypeScript backend on Azure
+– Built CI/CD pipelines using GitHub Actions to automate testing and improve deployment reliability
+– Integrated automated testing and code quality checks to support maintainability
+- 🔗 Repository: https://github.com/eqzhou81/CPEN-321
 
 ---
 
