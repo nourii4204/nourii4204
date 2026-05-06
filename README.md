@@ -14,6 +14,17 @@ Computer Engineering student at UBC with experience in **cybersecurity, distribu
 
 ## 🌟 Featured Projects
 
+### 🔹 AI Email Response Assistant
+Agent-style workflow system for intelligent email triage and response generation.
+
+- Classified incoming emails (recruiter, meeting, urgent, etc.) using LLM-based reasoning
+- Generated context-aware draft replies with tone adaptation and placeholder handling
+- Implemented safety checks to flag sensitive language, abnormal outputs, and risks
+- Designed a multi-step pipeline (classification → generation → validation → logging) with human-in-the-loop review
+- 🔗 Repository: https://github.com/nourii4204/email-draft-agent
+
+---
+
 ### 🔹 Distributed Key-Value Store
 High-performance distributed system with at-most-once semantics deployed on AWS.
 
